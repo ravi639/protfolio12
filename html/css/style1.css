@@ -1,0 +1,29 @@
+
+*{box-sizing: border-box;}
+
+.projects 
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects .x 
+{
+    width: 25%;
+    height: 200px;
+    border: 3px solid;
+
+}
+.img
+{
+    height:auto;
+    width: auto;
+    transform: scaleY(1.0);
+    transition:4s;
+}
+.img:hover .x 
+{
+    transform: scaleY(9.0);
+
+    
+}
